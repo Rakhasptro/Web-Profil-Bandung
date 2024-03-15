@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Halaman Profil Bandung</title>
 </head>
 
@@ -30,7 +31,8 @@
 
   <main>
     <div id="content">
-      <article id="Sejarah" class="card">
+      <article id="Sejarah" class="card" data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
         <h2>Sejarah</h2>
           <img src="assets/history.jpg " alt="sejarah" class="featured-image">
           <p>
@@ -54,7 +56,8 @@
           </p>
       </article>
 
-  <article id="Geografis" class="card">
+  <article id="Geografis" class="card" data-aos="fade-up"
+  data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
     <h2>Geografis</h2>
     <img src="assets/geografis.jpg" alt="grografis" class="featured-image">
     
@@ -76,7 +79,8 @@
     </p>
   </article>
 
-  <article id="Wisata" class="card">
+  <article id="Wisata" class="card" data-aos="fade-up"
+  data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
     <h2>Wisata</h2>
     <p>
       Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah menjadi tujuan
@@ -87,7 +91,8 @@
     </p>
   </article>
 
-  <section class="card">
+  <section class="card" data-aos="fade-up"
+  data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
     <h3>Farm House Lembang</h3>
     <img src="assets/farm-house.jpg" alt="fram house lembang" class="featured-image">
     <p>
@@ -99,7 +104,8 @@
   </section>
 
 
-  <section class="card">
+  <section class="card" data-aos="fade-up"
+  data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
     <h3>Observatorium Bosscha</h3>
     <img src="assets/bosscha.jpg" alt="Bosscha" class="featured-image">
     <p>
@@ -118,7 +124,8 @@
 </div>
 
 <aside>
-  <article  class="profile card" >
+  <article  class="profile card"  data-aos="fade-up"
+  data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
     <header>
       <h2>Kota Bandung</h2>
         <p>Kota Kembang Paris van Java</p>
@@ -161,6 +168,11 @@
 <footer>
   <p>Belajar Dasar Pemrograman Web &#169; 2019, Dicoding Academy</p>
 </footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>

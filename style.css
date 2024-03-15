@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -40,7 +41,7 @@ nav a:hover {
 }
 
 .profile img {
-  width: 200px;
+  width: 150px;
 }
 
 .card {
@@ -78,12 +79,12 @@ main {
 
 #content {
   float: left;
-  width: 70%;
+  width: 75%;
 }
 
 aside {
   float: right;
-  width: 30%;
+  width: 25%;
   padding-left: 20px;
 }
 
