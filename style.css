@@ -38,6 +38,7 @@ nav a:hover {
   max-height: 300px;
   object-fit: cover;
   object-position: center;
+  z-index: 100;
 }
 
 .profile img {
@@ -49,11 +50,13 @@ nav a:hover {
   border-radius: 5px;
   margin: 20px;
   padding: 20px;
+  position: sticky;
+  z-index: -999;
 }
 
 .jumbotron {
   font-size: 20px;
-  padding: 60px;
+  padding: 20px;
   background-color: #00c8eb;
   text-align: center;
   color: white;
